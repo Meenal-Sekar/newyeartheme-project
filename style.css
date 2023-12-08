@@ -1,0 +1,70 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+nav img
+{
+    width: 180px;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+nav ul li:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.sign
+{
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    padding:5px;
+    border-radius: 20px;
+    padding-left:18px;
+    padding-right: 20px;
+    
+}
+.pro
+{
+    background-color: orangered;
+    border: 0;
+    border-radius: 4px;
+    padding:2px 5px;
+}
+.music
+{
+    font-size: 90px;
+    margin-left: 40px;
+}
+
+.subdiv-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.subdiv-1 ul li
+{
+    list-style-type: none;
+}
+.main-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
